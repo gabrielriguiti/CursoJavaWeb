@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ProjetoJSF:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ProjetoJSF</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ProjetoJSF-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ProjetoJSF:war exploded" />
+    </root>
+  </artifact>
+</component>

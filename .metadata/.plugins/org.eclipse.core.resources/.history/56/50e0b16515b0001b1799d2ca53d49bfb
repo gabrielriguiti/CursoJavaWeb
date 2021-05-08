@@ -1,0 +1,23 @@
+package br.com.SistemaLogin.conexao;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import br.com.SistemaLogin.login.Login;
+import br.com.SistemaLogin.login.LoginDAO;
+
+public class Main {
+
+	public static void main(String[] args) throws SQLException {
+		
+		Connection conn = CriarConexao.getConexao();
+		
+		Login l = new Login();
+		l.setUsuario("GABRIEL.RIGUITI");
+		l.setSenha("12345");
+		
+		LoginDAO dao = new LoginDAO(conn);
+		dao.adicionar(l);
+		
+	}
+}

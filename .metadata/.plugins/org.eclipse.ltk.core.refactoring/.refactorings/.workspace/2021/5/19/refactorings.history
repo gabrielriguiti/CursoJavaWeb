@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;PersonalizaçõesPolyvox&apos;" deleteContents="false" description="Delete resource &apos;PersonalizaçõesPolyvox&apos;" element1="/PersonalizaçõesPolyvox" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1620065004581"/>
+</session>
